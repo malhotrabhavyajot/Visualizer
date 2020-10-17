@@ -1,0 +1,30 @@
+#thefile {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 100;
+}
+
+#canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+audio {
+  position: absolute;
+  top: 5px;
+  left: 1220px;
+  width: 300px;
+  height: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  audio {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    width: 100%;
+  }
+}
