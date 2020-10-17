@@ -20,7 +20,7 @@ audio {
   height: 20px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   audio {
     position: fixed;
     top: 725px;
